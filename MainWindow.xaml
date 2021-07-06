@@ -1,0 +1,33 @@
+﻿<Window x:Class="F6MADRecipes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:F6MADRecipes"
+        mc:Ignorable="d"
+        Title="F6 MAD Recipes" Height="751 " Width="441" MinHeight="751" MinWidth="441" MaxHeight="751" MaxWidth="441">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1.4*"/>
+
+        </Grid.RowDefinitions>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Background="#EFD599" Width="441" Height="292" Margin="-4,0" Grid.Row="0">
+
+            <TextBlock HorizontalAlignment="Center" Margin="0 100px 0 0" FontSize="32pt" Foreground="#FFF" FontFamily="Preface Sans" FontWeight="Bold"  Text="F  od"/>
+
+            <Image Source="/Resource/Vector.png" Width="32px" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 -40 21 0"/>
+
+            <TextBlock HorizontalAlignment="Center" Margin="0 0px 0 0" FontSize="32pt" Foreground="#FFF" FontFamily="Preface Sans" FontWeight="Bold"  Text="Recipe"/>
+
+        </StackPanel>
+
+        <Frame Name="Frm_Authorization" Grid.Row="1" NavigationUIVisibility="Hidden"/>
+
+    </Grid>
+
+</Window>
