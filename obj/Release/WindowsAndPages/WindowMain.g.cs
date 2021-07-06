@@ -52,7 +52,7 @@ namespace F6MADRecipes.WindowsAndPages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/F6MADRecipes;component/windowsandpages/windowmain.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MADRecipes;component/windowsandpages/windowmain.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\WindowsAndPages\WindowMain.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

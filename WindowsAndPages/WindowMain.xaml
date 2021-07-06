@@ -5,8 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:F6MADRecipes.WindowsAndPages"
         mc:Ignorable="d"
-        Title="WindowMain" Height="450" Width="800">
+        Title="F6 MAD Recipes" Height="751 " Width="441" MinHeight="751" MinWidth="441" MaxHeight="751" MaxWidth="441" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
+
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1" Background="#EFD599">
+
+            <Button Height="26" Width="22.03" HorizontalAlignment="Left" Margin="49 20 0 22" BorderThickness="0">
+                <Button.Background>
+
+                    <ImageBrush ImageSource="/Resource/Vector (1).png"/>
+
+                </Button.Background>
+
+            </Button>
+
+            <Button Height="25.69" Width="25.69" HorizontalAlignment="Left" Margin="49 20 0 22" BorderThickness="0">
+                <Button.Background>
+
+                    <ImageBrush ImageSource="/Resource/Vector (2).png"/>
+
+                </Button.Background>
+
+            </Button>
+
+            <Button Height="26" Width="22.03" HorizontalAlignment="Left" Margin="49 20 0 22" BorderThickness="0">
+                <Button.Background>
+
+                    <ImageBrush ImageSource="/Resource/Vector (3).png"/>
+
+                </Button.Background>
+
+            </Button>
+
+            <Button Height="26" Width="22.03" HorizontalAlignment="Left" Margin="49 20 0 22" BorderThickness="0">
+                <Button.Background>
+
+                    <ImageBrush ImageSource="/Resource/Vector (4).png"/>
+
+                </Button.Background>
+
+            </Button>
+
+        </StackPanel>
+
     </Grid>
+    
 </Window>

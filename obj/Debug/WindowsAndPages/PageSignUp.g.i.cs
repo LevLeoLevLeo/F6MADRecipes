@@ -100,7 +100,7 @@ namespace F6MADRecipes.WindowsAndPages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/F6MADRecipes;component/windowsandpages/pagesignup.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MADRecipes;component/windowsandpages/pagesignup.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\WindowsAndPages\PageSignUp.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
