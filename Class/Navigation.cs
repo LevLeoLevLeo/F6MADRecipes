@@ -11,7 +11,6 @@ namespace F6MADRecipes.Class
     {
 
         public static Frame frame;
-        public static MainWindow mainWindow = new MainWindow();
 
     }
 }

@@ -38,6 +38,7 @@ namespace F6MADRecipes.WindowsAndPages
             }
 
             else
+            
             {
 
                 if (!Txb_Email.Text.Contains("@") || string.IsNullOrWhiteSpace(Txb_Email.Text))
@@ -73,7 +74,6 @@ namespace F6MADRecipes.WindowsAndPages
 
                             WindowMain windowMain = new WindowMain();
                             windowMain.Show();
-                            Navigation.mainWindow.Close();
 
                         }
 

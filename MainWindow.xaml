@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:F6MADRecipes"
         mc:Ignorable="d"
-        Title="F6 MAD Recipes" Height="751 " Width="441" MinHeight="751" MinWidth="441" MaxHeight="751" MaxWidth="441">
+        Title="F6 MAD Recipes" Height="751 " Width="441" MinHeight="751" MinWidth="441" MaxHeight="751" MaxWidth="441" Icon="Resource/icon.png" WindowStartupLocation="CenterScreen">
 
     <Grid>
 
